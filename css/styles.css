@@ -1,4 +1,7 @@
 /********************************************************************                                VARIABLES ********************************************************************/
+/********************************************************************
+                                ANIMATIONS
+********************************************************************/
 @keyframes slideInLeft {
   from {
     margin-left: 80%; }
@@ -21,7 +24,7 @@
                                 NAVBAR
 ********************************************************************/
 .navbar {
-  border-bottom: #1d9aaa 1px solid;
+  border-bottom: #cacaca 1px solid;
   background-color: rgba(1, 44, 63, 0.7); }
   .navbar-brand:hover {
     background-color: #02475e;
@@ -52,11 +55,6 @@
   font-family: 'pavanam', sans-serif;
   font-weight: 400;
   font-size: 20px; }
-
-#city {
-  font-family: 'pavanam', sans-serif;
-  font-weight: 100;
-  font-size: 14px; }
 
 .fadeInLeft {
   animation-duration: 0.8s;
@@ -131,6 +129,11 @@ button.back-button {
   margin: -0.5rem 1rem 0 0;
   box-shadow: 0.7px 0.7px #5b87a8, 0 2px 5px #02475e; }
 
+#city {
+  font-family: 'pavanam', sans-serif;
+  font-weight: 300;
+  font-size: 16px; }
+
 #treehouseLink, #gastronomyLink {
   color: #cacaca;
   font-style: italic;
@@ -150,7 +153,7 @@ button.back-button {
                                 FOOTER
 ********************************************************************/
 #footer {
-  border-top: #1d9aaa 1px solid;
+  border-top: #cacaca 1px solid;
   background-color: rgba(1, 44, 63, 0.7); }
 
 #languageButton {
