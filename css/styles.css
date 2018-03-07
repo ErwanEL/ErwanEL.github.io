@@ -24,7 +24,7 @@
                                 NAVBAR
 ********************************************************************/
 .navbar {
-  border-bottom: #cacaca 1px solid;
+  border-bottom: #cacaca 0.9px solid;
   background-color: rgba(1, 44, 63, 0.7); }
   .navbar-brand:hover {
     background-color: #02475e;
@@ -153,7 +153,7 @@ button.back-button {
                                 FOOTER
 ********************************************************************/
 #footer {
-  border-top: #cacaca 1px solid;
+  border-top: #cacaca 0.9px solid;
   background-color: rgba(1, 44, 63, 0.7); }
 
 #languageButton {
