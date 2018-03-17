@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="img/favIconEl2.png">
+    <link rel="icon" href="img/favIconEl.png">
     <title>ErwanEL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -73,11 +73,11 @@
                     <p id="name" class="text-light">ErwanEL</p>
                     <hr>
                     <div class="btn-group-vertical pt-0">
-                        <button id="s" class="btn btn-outline-primary mt-3">Skills</button>
-                        <button id="p" class="btn btn-outline-primary mt-4">PortFolio</button>
-                        <button id="a" class="btn btn-outline-primary mt-4">About</button>
+                        <button id="s" class="btn btn-outline-primary mt-3"></button>
+                        <button id="p" class="btn btn-outline-primary mt-4"></button>
+                        <button id="a" class="btn btn-outline-primary mt-4"></button>
                         <button id="c" class="btn btn-outline-primary mt-5">
-                            <span>Contact </span>
+                            <span></span>
                             <i id="telegramIcon" class="fab fa-telegram-plane" data-fa-transform=""></i>
                         </button>
                     </div>
@@ -92,25 +92,20 @@
     <!-- skills -->
     <div id="skills" class="container mt-5 pt-5 text-center">
         <h1 class="display-4 text-light title">
-            <em>Skills</em>
+            <em></em>
         </h1>
         <button class="btn btn-outline-primary text-light back-button">
             <i class="fas fa-arrow-left"></i>
         </button>
-        <hr>
-        <i class="fas fa-cogs fa-2x text-primary"></i>
-        <div class="row text-center mt-4 mb-5">
-            <div class="col mx-auto my-2">
-                <div class="col-md-7 col-sm mx-auto">
-                    <p id="skillsContent" class="text-light font-weight-normal lead">
-                        Html css for structure and design, javascript for programming and interactivity. I use sass for variables, indenting syntax
-                        and framework theming, bootstrap for layouts and components, gulp for minifying, concating, browser
-                        synchronysing, nodejs and npm for packages and modules managing, all in all to improve my development
-                        environment and workflow. I also use express and mongoDB for dataBase creation.
-                    </p>
-
+        <hr class="bg-light">
+        <!-- <i class="fas fa-cogs fa-2x text-primary "></i> -->
+        <div class="container mt-4 mb-5">
+            <div>
+                <div class="p-3 mx-auto">
+                        <i class="fas fa-cogs fa-2x text-primary mb-4"></i>
+                    <p id="skillsContent" class="text-light text-justify font-weight-normal lead"></p>
                 </div>
-                <div class="mt-4 mb-5">
+                <div id="skillsLogos" class="p-2 mt-2">
                     <i class="skill-icon fab fa-html5 fa-4x mx-1"></i>
                     <i class="skill-icon fab fa-css3-alt fa-4x"></i>
                     <i class="devicon-bootstrap-plain skill-icon bootstrap-icon mx-1"></i>
@@ -119,7 +114,8 @@
                     <i class="skill-icon fab fa-gulp fa-4x mx-1"></i>
                     <i class="skill-icon fab fa-sass fa-4x"></i>
                     <i class="skill-icon fab fa-git fa-4x"></i>
-                    <i>
+                    <!-- mongoDbLogo -->
+                    <!-- <i>
                         <?xml version="1.0" ?>
                         <svg id="Layer_1" style="enable-background:new 0 0 512 146;" height="56" width="56" version="1.1" viewBox="0 0 512 146" xml:space="preserve"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -171,7 +167,8 @@
                                 </g>
                             </g>
                         </svg>
-                    </i>
+                    </i> -->
+                    <!-- /mongoDbLogo -->
                 </div>
             </div>
         </div>
@@ -180,60 +177,54 @@
     <!-- portfolio -->
     <div id="portfolio" class="container text-primary text-center mt-5 pt-5 ">
         <h1 class="display-4 title text-light">
-            <em>PortFolio</em>
+            <em></em>
         </h1>
         <button class="btn btn-outline-primary text-white back-button">
             <i class="fas fa-arrow-left fa-1x"></i>
         </button>
-        <hr>
+        <hr class="bg-light">
         <i class="fas fa-folder-open fa-2x text-primary"></i>
         <div class="row">
             <div class="p-3 my-2 mt-4 mb-5">
                 <div class="card-deck">
                     <div class="card bg-primary text-secondary">
                         <a href="">
-                            <img class="card-img-top" src="img/vgChart.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/projects/vgChart.png" alt="Card image cap">
                         </a>
                         <div class="card-body card-text">
                             <h5 class="card-title">VgCharts</h5>
-                            <p class="card-text">
-                                <em>- Express</em>
-                            </p>
-                            <p class="card-text">
-                                <em>- MongoDB</em>
-                            </p>
-                            <p class="card-text">
-                                <em>- Angular</em>
+                            <p class="card-text text-justify">
+                                - Express <br>
+                                - MongoDB <br>
+                                - Angular
                             </p>
                         </div>
                     </div>
                     <div class="card bg-primary text-secondary">
-                        <a href="" data-toggle="modal" data-target="#exampleModal">
-                            <img class="card-img-top" src="img/collage1.jpg" alt="Card image cap">
+                        <a href="" data-toggle="modal" data-target="#starterProjectsModal">
+                            <img class="card-img-top" src="img/collages/collageStarterProjects.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body card-text">
                             <h5 class="card-title">Starter projects</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                This content is a little bit longer.</p>
+                            <p id="starterProjectsCardDescription" class="card-text"></p>
                         </div>
                     </div>
                     <div class="card bg-primary text-secondary">
-                        <a href="">
-                            <img class="card-img-top bg-white p-3" src="img/treehouse.png" alt="Card image cap">
+                        <a href="" data-toggle="modal" data-target="#treehouseProjectsModal">
+                            <img class="card-img-top bg-white " src="img/collages/collageTreehouse.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body card-text">
                             <h5 class="card-title">Treehouse projects</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                This content is a little bit longer.</p>
+                            <p id="treehouseProjectsCardDescription" class="card-text">This is a selection of some of my treehouse projects.</p>
                         </div>
                     </div>
                     <div class="card bg-primary text-secondary">
-                        <a href="">
-                            <img class="card-img-top bg-primary p-5" src="img/gitHub-logo-white.png" alt="Card image cap">
+                        <a href="https://github.com/ErwanEL" target="_blank">
+                            <img class="card-img-top bg-primary p-5" src="img/logos/gitHub-logo-white.png" alt="Card image cap">
                         </a>
-                        <div class="card-body card-text" style="border-top: 1px solid white;">
+                        <div class="card-body card-text mx-auto" style="border-top: 1px solid white;">
                             <h5 class="card-title">Github</h5>
-                            <p class="card-text">More on github.</p>
+                            <p id="githubCardDescription" class="card-text">See more on github.</p>
                         </div>
                     </div>
                 </div>
@@ -244,13 +235,12 @@
     <!-- about -->
     <div id="about" class="container text-light mt-5 pt-5 text-center lead">
         <h1 class="display-4 title text-light">
-            <em>About</em>
+            <em></em>
         </h1>
         <button class="btn btn-outline-primary text-white back-button">
             <i class="fas fa-arrow-left fa-1x"></i>
         </button>
-        <hr>
-        <!-- <i class="fas fa-user fa-2x text-primary"></i> -->
+        <hr class="bg-light">
         <div class="row mt-4 mb-3">
             <div class="col text-center font-weight-normal p-3 my-2">
                 <img id="img" class="mx-auto mb-4" src="img/mini-Juan-rogné.jpg" alt="Photo-profil">
@@ -259,17 +249,10 @@
                     <u> Medellín, CO </u>
                 </p>
                 <div id="aboutContent" class="mt-3">
-                    - Graduado en electrotecnia (Francia).
-                    <br> -
-                    <a id="treehouseLink" target="_blank" href="https://teamtreehouse.com/erwanel">Treehouse alumno.</a>
-                    <br> - Inglés, español y francés hablante.
-                    <br> - Nociones básicas y aprendizaje del portugués.
-                    <br> - Apasionado por la
-                    <a id="gastronomyLink" target="_blank" href=""> gastronomia y el servicio de mesa.</a>
-                    <br> - Nadador, viajero, entusiasmo por el aprendizaje.
+                    
                 </div>
                 <div class="m-5 p-3">
-                    <a id="cvLink" href="">-> Mas en mi hoja de vida.</a>
+                    <a id="cvLink" target="_blank" href="pdf/cvDevEs2018.pdf"></a>
                 </div>
             </div>
         </div>
@@ -282,10 +265,10 @@
                 <li class="list-inline-item">
                     <span class="btn" id="languageButton">EN</span>
                 </li>
-                <a href="">
+                <a href="https://github.com/ErwanEL" target="_blank">
                     <li class="list-inline-item ml-3 mr-3 text-light">Github</li>
                 </a>
-                <a href="">
+                <a href="https://twitter.com/RjuanSmo" target="_blank">
                     <li class="list-inline-item text-light ml-3 mr-3">Twitter</li>
                 </a>
                 <a href="">
@@ -299,8 +282,122 @@
     </div>
     <!-- /footer -->
     <!-- /section -->
-    <!-- Modal -->
-    <!-- end of modal -->
+    <!-- starterProjectsModal -->
+    <div class="modal fade" id="starterProjectsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content border border-light">
+                <div class="modal-header bg-secondary">
+                    <h5 class="modal-title text-light mx-auto" id="exampleModalLongTitle" style="
+                     font-style: italic;
+                ">Starter Projects</h5>
+                    <!-- <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"> -->
+                        <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-secondary">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="https://erwanel.github.io/wikiViewer/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/wikiViewer.png" alt="Card image cap"></a>
+                            <div class="card-body bg-primary text-light">
+                                <h5 class="card-title text-center">Wiki Viewer</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - Bootstrap <br>
+                                    - Wikipedia Api
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://erwanel.github.io/showLocalWeather/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/localWeather.png" alt="Card image cap"></a>
+                            <div class="card-body bg-primary text-light">
+                                <h5 class="card-title text-center">Local Weather</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - Bootstrap <br>
+                                    - Weather Api
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://erwanel.github.io/randomQuotes/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/randomQuotes.png" alt="Card image cap"></a>
+                            <div class="card-body bg-primary text-light">
+                                <h5 class="card-title text-center">Random Quotes</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - Bootstrap <br>
+                                    - Quotes Api
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of starterProjectsModal -->
+    <!-- treehouseProjectsModal -->
+    <div class="modal fade" id="treehouseProjectsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content border border-light">
+                <div class="modal-header bg-secondary">
+                    <h5 class="modal-title text-light mx-auto" id="exampleModalLongTitle" style="
+                     font-style: italic;
+                ">Treehouse Projects</h5>
+                    <!-- <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"> -->
+                        <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-secondary">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="https://erwanel.github.io/quizz-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/quizz.png
+                            " alt="Card image cap"></a>
+                            <div class="card-body bg-primary text-light">
+                                <h5 class="card-title text-center">Quizz</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - POO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://erwanel.github.io/flickrSearch-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/flickr.png" alt="Card image cap">
+                            <div class="card-body bg-primary text-light"></a>
+                                <h5 class="card-title text-center">Flickr Viewer</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - Flickr Api
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                           <a href="https://erwanel.github.io/rsvp-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/rsvp.png" alt="Card image cap"></a>
+                            <div class="card-body bg-primary text-light">
+                                <h5 class="card-title text-center">Rsvp</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://erwanel.github.io/treetunes-th" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/treetunes.png" alt="Card image cap">
+                            <div class="card-body bg-primary text-light"></a>
+                                <h5 class="card-title text-center">Treetunes</h5>
+                                <p class="card-text">- Html <br>
+                                    - Css <br>
+                                    - POO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of treehouseProjectsModal -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>    
     <script src="js/app.min.js"></script>
 </body>
 

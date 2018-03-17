@@ -88,6 +88,16 @@
 #skills {
   display: none; }
 
+#skillsContent {
+  max-width: 600px;
+  margin: auto; }
+
+#skillsLogos {
+  background: #cacaca;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 80px; }
+
 button.back-button {
   box-shadow: inset 0 2px 0px #5b87a8, 0 2px 5px #02475e;
   animation-duration: 0.8s;
@@ -114,6 +124,9 @@ button.back-button {
   border: rgba(255, 255, 255, 0.719) 1px solid; }
   #portfolio .card-text {
     color: rgba(255, 255, 255, 0.719); }
+
+.modal .custom-close {
+  border: 1px solid; }
 
 /********************************************************************
                                 ABOUT
