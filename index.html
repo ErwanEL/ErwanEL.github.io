@@ -29,11 +29,14 @@
         <button id="el" class="navbar-brand btn btn-outline-light mx-auto">EL</button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="ul navbar-nav ml-auto">
-                    <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://www.upwork.com/o/profiles/users/_~01b8a43c80d62b95bb/">
-                                <svg style="margin-top: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="17" width="17"><path id="upworkSvg" fill="#5b87a8" fill-rule="evenodd" d="M12.374 8.774c-.735 0-1.424-.311-2.05-.818l.152-.717.005-.028c.138-.762.566-2.04 1.893-2.04.994 0 1.802.808 1.802 1.802 0 .993-.808 1.801-1.802 1.801zm0-5.427c-1.693 0-3.007 1.1-3.54 2.911-.813-1.223-1.432-2.691-1.791-3.928H5.219v4.742A1.7 1.7 0 0 1 3.521 8.77a1.7 1.7 0 0 1-1.697-1.698V2.33H0v4.742c0 1.942 1.58 3.535 3.521 3.535 1.942 0 3.522-1.593 3.522-3.535v-.794c.353.738.788 1.486 1.316 2.147l-1.116 5.249h1.865l.809-3.807c.708.453 1.523.74 2.457.74 2 0 3.626-1.635 3.626-3.634 0-2-1.626-3.626-3.626-3.626z"/></svg>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.upwork.com/o/profiles/users/_~01b8a43c80d62b95bb/">
+                        <svg style="margin-top: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="17" width="17">
+                            <path id="upworkSvg" fill="#5b87a8" fill-rule="evenodd" d="M12.374 8.774c-.735 0-1.424-.311-2.05-.818l.152-.717.005-.028c.138-.762.566-2.04 1.893-2.04.994 0 1.802.808 1.802 1.802 0 .993-.808 1.801-1.802 1.801zm0-5.427c-1.693 0-3.007 1.1-3.54 2.911-.813-1.223-1.432-2.691-1.791-3.928H5.219v4.742A1.7 1.7 0 0 1 3.521 8.77a1.7 1.7 0 0 1-1.697-1.698V2.33H0v4.742c0 1.942 1.58 3.535 3.521 3.535 1.942 0 3.522-1.593 3.522-3.535v-.794c.353.738.788 1.486 1.316 2.147l-1.116 5.249h1.865l.809-3.807c.708.453 1.523.74 2.457.74 2 0 3.626-1.635 3.626-3.634 0-2-1.626-3.626-3.626-3.626z"
+                            />
+                        </svg>
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="https://github.com/ErwanEL">
                         <i class="fab fa-github nav-icon"></i>
@@ -106,7 +109,7 @@
         <div class="container mt-4 mb-5">
             <div>
                 <div class="p-3 mx-auto">
-                        <i class="fas fa-cogs fa-2x text-primary mb-4"></i>
+                    <i class="fas fa-cogs fa-2x text-primary mb-4"></i>
                     <p id="skillsContent" class="text-light text-justify font-weight-normal lead"></p>
                 </div>
                 <div id="skillsLogos" class="p-2 mt-2">
@@ -187,9 +190,19 @@
         </button>
         <hr class="bg-light">
         <i class="fas fa-folder-open fa-2x text-primary"></i>
-        <div class="row">
-            <div class="p-3 my-2 mt-4 mb-5">
+        <div class="row mt-3">
+            <div class="p-3 my-1">
                 <div class="card-deck">
+                <div id="okWriteCard" class="card bg-primary text-secondary">
+                        <a href="https://okwrite.co/pricing" target="_blank">
+                            <img class="card-img-top" src="img/projects/okWritePricing.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body card-text">
+                            <h5 class="card-title">Pricing table switch</h5>
+                            <p id="okWriteDescription" class="card-text text-left">
+                            </p>
+                        </div>
+                    </div>
                     <div id="cartProjectCard" class="card bg-primary text-secondary">
                         <a href="https://erwanel.github.io/cartSystem/" target="_blank">
                             <img class="card-img-top" src="img/projects/cartSystem.png" alt="Card image cap">
@@ -228,17 +241,61 @@
                             <p id="treehouseProjectsCardDescription" class="card-text text-left">This is a selection of some of my treehouse projects.</p>
                         </div>
                     </div>
-                    <div class="card bg-primary text-secondary">
+                </div>
+            </div>
+        </div>
+        <div class="row pb-5">
+                <div class="col-sm">
+                    <div class="card" style="display:none;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="display:none;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card bg-primary text-secondary" style="display:none;">
                         <a href="https://github.com/ErwanEL" target="_blank">
                             <img class="card-img-top bg-primary p-5" src="img/logos/github-logo-white.png" alt="github logo">
                         </a>
-                        <div class="card-body card-text mx-auto" style="border-top: 1px solid white;">
+                        <div class="card-body card-text mx-auto"            style="border-top: 1px solid white;">
                             <h5 class="card-title">Github</h5>
                             <p id="githubCardDescription" class="card-text">See more on github.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-sm">
+                    <div class="card" style="display:none;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="display:none;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
         </div>
     </div>
     <!-- /portFolio -->
@@ -275,7 +332,7 @@
                     <span class="btn" id="languageButton">EN</span>
                 </li>
                 <a href="https://www.upwork.com/o/profiles/users/_~01b8a43c80d62b95bb/" target="_blank">
-                        <li class="list-inline-item text-light ml-3 mr-3">Upwork</li>
+                    <li class="list-inline-item text-light ml-3 mr-3">Upwork</li>
                 </a>
                 <a href="https://github.com/ErwanEL" target="_blank">
                     <li class="list-inline-item ml-3 mr-3 text-light">Github</li>
@@ -297,41 +354,47 @@
             <div class="modal-content border border-light">
                 <div class="modal-header bg-secondary">
                     <h5 class="modal-title text-light mx-auto" id="exampleModalLongTitle">Starter Projects</h5>
-                        <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
+                    <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body bg-secondary">
                     <div class="card-deck">
                         <div class="card">
-                            <a href="https://erwanel.github.io/wikiViewer/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/wikiViewer.png" alt="Card image cap"></a>
+                            <a href="https://erwanel.github.io/wikiViewer/" target="_blank">
+                                <img class="card-img-top" src="img/imgStarterProjects/wikiViewer.png" alt="Card image cap">
+                            </a>
                             <div class="card-body bg-primary text-light">
                                 <h5 class="card-title text-center">Wiki Viewer</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - Bootstrap <br>
-                                    - Wikipedia Api
+                                <p class="card-text">- Html
+                                    <br> - Css
+                                    <br> - Bootstrap
+                                    <br> - Wikipedia Api
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <a href="https://erwanel.github.io/showLocalWeather/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/localWeather.png" alt="Card image cap"></a>
+                            <a href="https://erwanel.github.io/showLocalWeather/" target="_blank">
+                                <img class="card-img-top" src="img/imgStarterProjects/localWeather.png" alt="Card image cap">
+                            </a>
                             <div class="card-body bg-primary text-light">
                                 <h5 class="card-title text-center">Local Weather</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - Bootstrap <br>
-                                    - Weather Api
+                                <p class="card-text">- Html
+                                    <br> - Css
+                                    <br> - Bootstrap
+                                    <br> - Weather Api
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <a href="https://erwanel.github.io/randomQuotes/" target="_blank"><img class="card-img-top" src="img/imgStarterProjects/randomQuotes.png" alt="Card image cap"></a>
+                            <a href="https://erwanel.github.io/randomQuotes/" target="_blank">
+                                <img class="card-img-top" src="img/imgStarterProjects/randomQuotes.png" alt="Card image cap">
+                            </a>
                             <div class="card-body bg-primary text-light">
                                 <h5 class="card-title text-center">Random Quotes</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - Bootstrap <br>
-                                    - Quotes Api
+                                <p class="card-text">- Html
+                                    <br> - Css
+                                    <br> - Bootstrap
+                                    <br> - Quotes Api
                                 </p>
                             </div>
                         </div>
@@ -342,55 +405,64 @@
     </div>
     <!-- end of starterProjectsModal -->
     <!-- treehouseProjectsModal -->
-    <div class="modal fade" id="treehouseProjectsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="treehouseProjectsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content border border-light">
                 <div class="modal-header bg-secondary">
                     <h5 class="modal-title text-light mx-auto" id="exampleModalLongTitle">Treehouse Projects</h5>
                     <!-- <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"> -->
-                        <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
+                    <span class="btn text-light custom-close" aria-hidden="true" data-dismiss="modal">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body bg-secondary">
                     <div class="card-deck">
                         <div class="card">
-                            <a href="https://erwanel.github.io/quizz-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/quizz.png
-                            " alt="Card image cap"></a>
+                            <a href="https://erwanel.github.io/quizz-th/" target="_blank">
+                                <img class="card-img-top" src="img/imgTreehouseProjects/quizz.png
+                            " alt="Card image cap">
+                            </a>
                             <div class="card-body bg-primary text-light">
                                 <h5 class="card-title text-center">Quizz</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - POO
+                                <p class="card-text">- Html
+                                    <br> - Css
+                                    <br> - POO
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <a href="https://erwanel.github.io/flickrSearch-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/flickr.png" alt="Card image cap">
-                            <div class="card-body bg-primary text-light"></a>
-                                <h5 class="card-title text-center">Flickr Viewer</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - Flickr Api
-                                </p>
+                            <a href="https://erwanel.github.io/flickrSearch-th/" target="_blank">
+                                <img class="card-img-top" src="img/imgTreehouseProjects/flickr.png" alt="Card image cap">
+                                <div class="card-body bg-primary text-light">
+                            </a>
+                            <h5 class="card-title text-center">Flickr Viewer</h5>
+                            <p class="card-text">- Html
+                                <br> - Css
+                                <br> - Flickr Api
+                            </p>
                             </div>
                         </div>
                         <div class="card">
-                           <a href="https://erwanel.github.io/rsvp-th/" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/rsvp.png" alt="Card image cap"></a>
+                            <a href="https://erwanel.github.io/rsvp-th/" target="_blank">
+                                <img class="card-img-top" src="img/imgTreehouseProjects/rsvp.png" alt="Card image cap">
+                            </a>
                             <div class="card-body bg-primary text-light">
                                 <h5 class="card-title text-center">Rsvp</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css
+                                <p class="card-text">- Html
+                                    <br> - Css
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <a href="https://erwanel.github.io/treetunes-th" target="_blank"><img class="card-img-top" src="img/imgTreehouseProjects/treetunes.png" alt="Card image cap">
-                            <div class="card-body bg-primary text-light"></a>
-                                <h5 class="card-title text-center">Treetunes</h5>
-                                <p class="card-text">- Html <br>
-                                    - Css <br>
-                                    - POO
-                                </p>
+                            <a href="https://erwanel.github.io/treetunes-th" target="_blank">
+                                <img class="card-img-top" src="img/imgTreehouseProjects/treetunes.png" alt="Card image cap">
+                                <div class="card-body bg-primary text-light">
+                            </a>
+                            <h5 class="card-title text-center">Treetunes</h5>
+                            <p class="card-text">- Html
+                                <br> - Css
+                                <br> - POO
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -401,7 +473,7 @@
     <!-- end of treehouseProjectsModal -->
     <script src="js/bootstrap/popper.min.js"></script>
     <script src="js/bootstrap/jquery.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>    
+    <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="js/app.min.js"></script>
 </body>
 
