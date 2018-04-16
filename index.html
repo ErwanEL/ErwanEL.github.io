@@ -76,9 +76,9 @@
         <div class="row">
             <div class="col text-center">
                 <div class="p-4">
-                    <h1 id="titleIndex" class="display-4 title text-light">Junior Web Developer</h1>
+                    <h1 id="titleIndex" class="display-4 title">Junior Web Developer</h1>
                     <hr>
-                    <p id="name" class="text-light">ErwanEL</p>
+                    <p id="name" class="text-white">ErwanEL</p>
                     <hr>
                     <div class="btn-group-vertical pt-0">
                         <button id="s" class="btn btn-outline-primary mt-3"></button>
@@ -99,20 +99,18 @@
     <!-- /index -->
     <!-- skills -->
     <div id="skills" class="container mt-5 pt-5 text-center">
-        <h1 class="display-4 text-light title">
+        <h1 class="display-4 title">
         </h1>
-        <button class="btn btn-outline-primary text-light back-button">
+        <button class="btn btn-outline-primary text-white back-button">
             <i class="fas fa-arrow-left"></i>
         </button>
-        <hr class="bg-light">
-        <!-- <i class="fas fa-cogs fa-2x text-primary "></i> -->
-        <div class="container mt-4 mb-5">
+        <hr class="bg-white">
+        <i id="cogs" class="fas fa-cogs fa-3x text-primary "></i>
+        <div class="container mt-3  mb-5">
             <div>
-                <div class="p-3 mx-auto">
-                    <i class="fas fa-cogs fa-2x text-primary mb-4"></i>
-                    <p id="skillsContent" class="text-light text-justify font-weight-normal lead"></p>
+                <div id="skillsContent"  class="p-3 lead col font-weight-normal">
                 </div>
-                <div id="skillsLogos" class="p-2 mt-2">
+                <div id="skillsLogos" class="p-2 mt-3">
                     <i class="skill-icon fab fa-html5 fa-4x mx-1"></i>
                     <i class="skill-icon fab fa-css3-alt fa-4x"></i>
                     <i class="devicon-bootstrap-plain skill-icon bootstrap-icon mx-1"></i>
@@ -183,13 +181,13 @@
     <!-- /skills -->
     <!-- portfolio -->
     <div id="portfolio" class="container text-primary text-center mt-5 pt-5 ">
-        <h1 class="display-4 title text-light">
+        <h1 class="display-4 title">
         </h1>
         <button class="btn btn-outline-primary text-white back-button">
             <i class="fas fa-arrow-left fa-1x"></i>
         </button>
-        <hr class="bg-light">
-        <i class="fas fa-folder-open fa-2x text-primary"></i>
+        <hr class="bg-white">
+        <i id="folder" class="fas fa-folder-open fa-3x text-primary"></i>
         <div class="row mt-3">
             <div class="p-3 my-1">
                 <div class="card-deck">
@@ -301,25 +299,31 @@
     <!-- /portFolio -->
     <!-- about -->
     <div id="about" class="container text-light mt-5 pt-5 text-center lead">
-        <h1 class="display-4 title text-light">
+        <h1 class="display-4 title">
         </h1>
         <button class="btn btn-outline-primary text-white back-button">
             <i class="fas fa-arrow-left fa-1x"></i>
         </button>
-        <hr class="bg-light">
-        <div class="row mt-4 mb-3">
+        <hr class="bg-white">
+        <div class="row mt-3 mb-3">
             <div class="col text-center font-weight-normal p-3 my-2">
                 <img id="img" class="mx-auto mb-4" src="img/mini-Juan-rogné.jpg" alt="Photo-profil">
-                <p id="city" class="text-light">
+                <p id="city" class="text-white">
                     <i class="fas fa-map-marker"></i>
                     <u> Medellín, CO </u>
                 </p>
-                <div id="aboutContent" class="mt-3">
+                <div id="aboutContent" class="mt-3 col">
                     <!-- voir languages.js -->
                 </div>
-                <div class="m-5 p-3">
-                    <a id="cvLink" target="_blank" href="pdf/cvDevEs2018.pdf"></a>
+                
+                <div id="cvContent" class="mt-3 mb-4 p-3 col col-lg-3 col-md-3 col-sm-1">
+                    <a target="_blank" href="pdf/cvDevEs2018.pdf">
+                    <div class="text-primary">
+                        <i id="cvIcon" class="fas fa-file-alt fa-2x"></i>
+                    </div>
+                    <a id="cvLink" class="text-primary" target="_blank" href="pdf/cvDevEs2018.pdf"></a>
                 </div>
+                </a>
             </div>
         </div>
     </div>
@@ -340,7 +344,7 @@
                 <a href="https://twitter.com/RjuanSmo" target="_blank">
                     <li class="list-inline-item text-light ml-3 mr-3">Twitter</li>
                 </a>
-                <a href="" class="list-inline-item ml-3">
+                <a href="https://erwanel.github.io/hotellerie/" class="list-inline-item ml-3">
                     <i class="fas fa-utensils text-light"></i>
                 </a>
             </ul>
