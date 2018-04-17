@@ -94,10 +94,10 @@
 
 #cogs {
   max-width: 45px;
-  background: #cacaca;
+  background: #194359;
   border-radius: 5px;
-  padding: 5px;
-  border: 3px solid #194359; }
+  padding: 8px;
+  border: 1px solid white; }
 
 #skillsContent {
   max-width: 600px;
@@ -139,10 +139,10 @@ button.back-button {
 
 #folder {
   max-width: 45px;
-  background: #cacaca;
+  background: #194359;
+  border-radius: 5px;
   padding: 8px;
-  border: 3px solid #194359;
-  border-radius: 5px; }
+  border: 1px solid white; }
 
 #portfolio .card {
   border: rgba(255, 255, 255, 0.719) 1px solid; }
