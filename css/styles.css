@@ -189,6 +189,10 @@ button.back-button {
   border: 3px solid #194359;
   outline: 2px solid white; }
 
+#aboutContent {
+  padding-top: 15px;
+  padding-bottom: 50px; }
+
 #cvContent {
   cursor: pointer; }
   #cvContent:hover {
