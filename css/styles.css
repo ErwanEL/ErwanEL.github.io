@@ -180,6 +180,15 @@ button.back-button {
   font-weight: 300;
   font-size: 16px; }
 
+#logos {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  color: #02475e;
+  padding: 30px;
+  border: 3px solid #02475e;
+  outline: .5px solid white; }
+
 #cvContent, #aboutContent {
   background: white;
   color: #194359;
